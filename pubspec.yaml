@@ -29,3 +29,6 @@ flutter:
       fonts:
         - asset: assets/fonts/remixicon.ttf
           style: normal
+
+  assets:
+    - assets/fonts/remixicon-glyph.json
