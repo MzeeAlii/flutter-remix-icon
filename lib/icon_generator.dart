@@ -1,14 +1,15 @@
+import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:flutter/services.dart';
+// import 'package:flutter/services.dart';
 
 class IconGenerator {
   final reservedKeys = ['class', 'new', 'null', 'sync', 'switch', 'try'];
   final _className = 'RemixIcon';
 
   // To run this
-  main() async {
+  void main() async {
     Map? iconMap = await _getIconMap();
 
     String fontCode = _buildCode(iconMap);
@@ -45,9 +46,17 @@ class IconGenerator {
 
   // Extract glyph map from file
   Future<Map>? _getIconMap() async {
-    final String response =
-        await rootBundle.loadString('assets/fonts/remixicon-glyph.json');
-    return await json.decode(response);
+    // final String content =
+    //     await rootBundle.loadString('assets/fonts/remixicon-glyph.json');
+    String content = '';
+
+    await File('../assets/fonts/remixicon-glyph.json')
+        .openRead()
+        .transform(utf8.decoder)
+        .transform(new LineSplitter())
+        .forEach((line) => content += line);
+
+    return await json.decode(content);
   }
 
   // Make font class code from glyph map
