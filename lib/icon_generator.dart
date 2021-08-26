@@ -1,8 +1,14 @@
+import 'dart:convert';
+
+import 'package:flutter/services.dart';
+
 class IconGenerator {
   final reservedKeys = ['class', 'new', 'null', 'sync', 'switch', 'try'];
 
   // To run this
-  main() async {}
+  main() async {
+    Map? iconMap = await _getIconMap();
+  }
 
   // Replace - with _
   // Language reserved words: new -> new_icon
@@ -24,5 +30,11 @@ class IconGenerator {
     }
 
     return key;
+  }
+
+  Future<Map>? _getIconMap() async {
+    final String response =
+        await rootBundle.loadString('assets/fonts/remixicon-glyph.json');
+    return await json.decode(response);
   }
 }
