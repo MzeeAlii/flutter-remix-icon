@@ -15,7 +15,9 @@ Add the `flutter_remix_icon` package to your project dependencies.
 # pubspec.yaml
 
 dependencies:
-  flutter_remix_icon: ^0.0.1
+    flutter_remix_icon:
+        git:
+          url: git://github.com/MzeeAlii/flutter-remix-icon.git
 
 ```
 
