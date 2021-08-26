@@ -87,7 +87,7 @@ void _writeCodeToFile(String code) async {
   print('Writing code...');
   final fontFile = '$_className.dart';
 
-  await File(fontFile)
+  await File('lib/$fontFile')
       .writeAsString(code)
       .then((file) => print('Writing font class code complete.'))
       .onError((error, stackTrace) {
@@ -99,11 +99,11 @@ void _writeCodeToFile(String code) async {
   code = 'library flutter_remix_icon;'
       'export \'$_className.dart\';';
 
-  File(mainFile)
+  await File('lib/$mainFile')
       .writeAsString(code)
-      .then((file) => print('Writing code complete.'))
+      .then((file) => print('Writing main code complete.'))
       .onError((error, stackTrace) {
-    print('Writing code failed!');
+    print('Writing main code failed!');
   });
 }
 // }
