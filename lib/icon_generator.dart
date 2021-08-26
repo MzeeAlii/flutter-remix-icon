@@ -13,8 +13,7 @@ class IconGenerator {
 
     String fontCode = _buildCode(iconMap);
 
-    // final filename = 'file.dart';
-    // var file = await File(filename).writeAsString(code);
+    _writeCodeToFile(fontCode);
   }
 
   // Replace - with _
@@ -44,12 +43,14 @@ class IconGenerator {
     return unicode.replaceFirst('&#', '0');
   }
 
+  // Extract glyph map from file
   Future<Map>? _getIconMap() async {
     final String response =
         await rootBundle.loadString('assets/fonts/remixicon-glyph.json');
     return await json.decode(response);
   }
 
+  // Make font class code from glyph map
   String _buildCode(Map? iconMap) {
     print('Building code...');
     String code =
@@ -63,8 +64,21 @@ class IconGenerator {
           'static const IconData $_key = IconData($_unicode, fontFamily: "$_className", fontPackage: "flutter_remix_icon");';
     });
     code += "}";
-    print('Code complete.');
+    print('Building code complete.');
 
     return code;
+  }
+
+  // Write code to local font class file
+  void _writeCodeToFile(String code) async {
+    print('Writing code...');
+    final filename = '$_className.dart';
+
+    File(filename)
+        .writeAsString(code)
+        .then((file) => print('Writing code complete.'))
+        .onError((error, stackTrace) {
+      print('Writing code failed!');
+    });
   }
 }
