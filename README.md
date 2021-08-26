@@ -7,7 +7,7 @@ View the full set of Remix Icons at [remixicon.com](https://remixicon.com).
 
 ## Usage
 
-### Basic Usage
+### Installation
 
 Add the `flutter_remix_icon` package to your project dependencies.
 
@@ -20,10 +20,31 @@ dependencies:
 
 ```
 
-> **Note:** We are working to publish the package on [pub.dev](https://pub.dev)
+>  We are working to publish the package on [pub.dev](https://pub.dev)
 
 Run `pub get` to start using Remix Icon in your Flutter project.
 
+### Using Icons
+
+Import `flutter_remix_icon` package where you would like to use it.
+
+```dart
+import 'package:flutter_remix_icon/flutter_remix_icon.dart';
+
+```
+
+Get the icons by using `RemixIcon` class. Its static values return `IconData` which can be wrapped under widgets, such as `Icon`, to be customized and rendered on UI.
+
+
+```dart
+Icon(
+  RemixIcon.chat_1_line,
+  color: Theme.of(context).accentColor,
+  size: 32,
+);
+
+```
+
 ## License
 
-Remix Icon is licensed under the [Apache License Version 2.0](https://github.com/Remix-Design/remixicon/blob/master/License).  Feel free to use these icons in your projects. We would be very grateful if you mention the original authors of the icons, i.e. [Remix Icon](https://remixicon.com), and developer of the plugin, i.e. [Ali Suleiman](https://twitter.com/MzeeAlii), in your product info, but it's not required. Strictly, the icons are not for sale.
+Remix Icon is licensed under the [Apache License Version 2.0](https://github.com/Remix-Design/remixicon/blob/master/License).  Feel free to use these icons in your projects. It's much appreciated if you mention the original authors of the icons, [Remix Icon](https://remixicon.com), in your product info. Strictly, the icons are not for sale.
