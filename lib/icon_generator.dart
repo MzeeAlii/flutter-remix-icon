@@ -1,13 +1,18 @@
 import 'dart:convert';
+import 'dart:io';
 
 import 'package:flutter/services.dart';
 
 class IconGenerator {
   final reservedKeys = ['class', 'new', 'null', 'sync', 'switch', 'try'];
+  final _className = 'RemixIcon';
 
   // To run this
   main() async {
     Map? iconMap = await _getIconMap();
+
+    // final filename = 'file.dart';
+    // var file = await File(filename).writeAsString(code);
   }
 
   // Replace - with _
@@ -36,5 +41,20 @@ class IconGenerator {
     final String response =
         await rootBundle.loadString('assets/fonts/remixicon-glyph.json');
     return await json.decode(response);
+  }
+
+  String _buildCode(Map? iconMap){
+
+    String code =
+        'import \'package:flutter/widgets.dart\'; class $_className {';
+
+    iconMap?.forEach((key, value) {
+      code +=
+      'static const IconData ${_sanitizeKey(key)} = IconData($value[\'unicode\'], fontFamily: "$_className", fontPackage: "flutter_remix_icon");';
+    });
+    code += "}";
+    print('Code complete.');
+
+    return code;
   }
 }
