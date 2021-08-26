@@ -39,13 +39,16 @@ String _sanitizeKey(String key) {
   return key;
 }
 
-// Replace &# with 0
+// Replace &# with 0, and removing ;
 String _sanitizeUnicode(String unicode) {
-  return unicode.replaceFirst('&#', '0');
+  unicode = unicode.replaceFirst('&#', '0');
+  unicode = unicode.replaceFirst(';', '');
+  return unicode;
 }
 
 // Extract glyph map from file
 Future<Map>? _getIconMap() async {
+  print('Reading glyph map file...');
   // final String content =
   //     await rootBundle.loadString('assets/fonts/remixicon-glyph.json');
   String content = '';
@@ -55,6 +58,8 @@ Future<Map>? _getIconMap() async {
       .transform(utf8.decoder)
       .transform(new LineSplitter())
       .forEach((line) => content += line);
+
+  print('Reading glyph map file complete.');
 
   return await json.decode(content);
 }
