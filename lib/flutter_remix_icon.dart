@@ -1,5 +1,3 @@
-library flutter_remix_icon;
-
 // import 'dart:async';
 //
 // import 'package:flutter/services.dart';
@@ -13,4 +11,3 @@ library flutter_remix_icon;
 //     return version;
 //   }
 // }
-

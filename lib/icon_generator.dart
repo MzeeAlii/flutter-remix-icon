@@ -72,9 +72,21 @@ class IconGenerator {
   // Write code to local font class file
   void _writeCodeToFile(String code) async {
     print('Writing code...');
-    final filename = '$_className.dart';
+    final fontFile = '$_className.dart';
 
-    File(filename)
+    await File(fontFile)
+        .writeAsString(code)
+        .then((file) => print('Writing font class code complete.'))
+        .onError((error, stackTrace) {
+      print('Writing font class code failed!');
+    });
+
+    final mainFile = 'flutter_remix_icon.dart';
+
+    code = 'library flutter_remix_icon;'
+        'export \'$_className.dart\';';
+
+    File(mainFile)
         .writeAsString(code)
         .then((file) => print('Writing code complete.'))
         .onError((error, stackTrace) {
