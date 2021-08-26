@@ -27,4 +27,4 @@ Run `pub get` to start using Remix Icon in your Flutter project.
 
 ## License
 
-Remix Icon is licensed under the [Apache License Version 2.0](https://github.com/Remix-Design/remixicon/blob/master/License).  Feel free to use these icons in your products and distribute them. We would be very grateful if you mention "Remix Icon" in your product info, but it's not required. The only thing we ask is that these icons are not for sale.
+Remix Icon is licensed under the [Apache License Version 2.0](https://github.com/Remix-Design/remixicon/blob/master/License).  Feel free to use these icons in your projects. We would be very grateful if you mention the original authors of the icons, i.e. [Remix Icon](https://remixicon.com), and developer of the plugin, i.e [Ali Suleiman](https://twitter.com/MzeeAlii), in your product info, but it's not required. The only thing we ask is that these icons are not for sale.
