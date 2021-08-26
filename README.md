@@ -18,9 +18,10 @@ Add the `flutter_remix_icon` package to your project dependencies.
 
 dependencies:
   flutter_remix_icon: ^0.0.1
+
 ```
 
-> **Note:** We recommend installing the latest package version available on [pub.dev](https://pub.dev).
+> **Note:** We recommend installing the latest package version available on [pub.dev](https://pub.dev)
 
 Run `pub get` to start using Remix Icon in your Flutter project.
 
