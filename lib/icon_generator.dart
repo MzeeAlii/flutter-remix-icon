@@ -50,7 +50,7 @@ Future<Map>? _getIconMap() async {
   //     await rootBundle.loadString('assets/fonts/remixicon-glyph.json');
   String content = '';
 
-  await File('../assets/fonts/remixicon-glyph.json')
+  await File('assets/fonts/remixicon-glyph.json')
       .openRead()
       .transform(utf8.decoder)
       .transform(new LineSplitter())
