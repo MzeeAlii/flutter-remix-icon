@@ -15,7 +15,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-#flutter:
+flutter:
 #  plugin:
 #    platforms:
 #      android:
@@ -24,3 +24,8 @@ dev_dependencies:
 #      ios:
 #        pluginClass: FlutterRemixIconPlugin
 
+  fonts:
+    - family: RemixIcon
+      fonts:
+        - asset: assets/fonts/remixicon.ttf
+          style: normal
