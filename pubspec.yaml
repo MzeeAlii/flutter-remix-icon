@@ -15,12 +15,12 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-flutter:
-  plugin:
-    platforms:
-      android:
-        package: africa.olorok.flutter_remix_icon
-        pluginClass: FlutterRemixIconPlugin
-      ios:
-        pluginClass: FlutterRemixIconPlugin
+#flutter:
+#  plugin:
+#    platforms:
+#      android:
+#        package: africa.olorok.flutter_remix_icon
+#        pluginClass: FlutterRemixIconPlugin
+#      ios:
+#        pluginClass: FlutterRemixIconPlugin
 
