@@ -85,7 +85,7 @@ String _buildCode(Map? iconMap) {
 // Write code to local font class file
 void _writeCodeToFile(String code) async {
   print('Writing code...');
-  final fontFile = '$_className.dart';
+  final fontFile = '${_className.toLowerCase()}.dart';
 
   await File('lib/$fontFile')
       .writeAsString(code)
@@ -97,7 +97,7 @@ void _writeCodeToFile(String code) async {
   final mainFile = 'flutter_remix_icon.dart';
 
   code = 'library flutter_remix_icon;'
-      'export \'$_className.dart\';';
+      'export \'${_className.toLowerCase()}.dart\';';
 
   await File('lib/$mainFile')
       .writeAsString(code)
