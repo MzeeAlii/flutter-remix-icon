@@ -13,15 +13,14 @@ Add the `flutter_remix_icon` package to your project dependencies.
 
 ```yaml
 # pubspec.yaml
-
 dependencies:
     flutter_remix_icon:
         git:
-          url: git://github.com/MzeeAlii/flutter-remix-icon.git
+          url: git://github.com/mzeealii/flutter-remix-icon.git
 
 ```
 
-> **Note:** We recommend installing the latest package version available on [pub.dev](https://pub.dev)
+> **Note:** We are working to publish the package on [pub.dev](https://pub.dev)
 
 Run `pub get` to start using Remix Icon in your Flutter project.
 
