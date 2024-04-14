@@ -431,9 +431,9 @@ class RemixIcon {
       fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
   static const IconData book_line = IconData(0xEAD7,
       fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
-  static const IconData book_mark_fill = IconData(0xEAD8,
+  static const IconData book_marked_fill = IconData(0xEAD8,
       fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
-  static const IconData book_mark_line = IconData(0xEAD9,
+  static const IconData book_marked_line = IconData(0xEAD9,
       fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
   static const IconData book_open_fill = IconData(0xEADA,
       fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
@@ -1511,9 +1511,9 @@ class RemixIcon {
       fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
   static const IconData file_lock_line = IconData(0xECF3,
       fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
-  static const IconData file_mark_fill = IconData(0xECF4,
+  static const IconData file_marked_fill = IconData(0xECF4,
       fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
-  static const IconData file_mark_line = IconData(0xECF5,
+  static const IconData file_marked_line = IconData(0xECF5,
       fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
   static const IconData file_music_fill = IconData(0xECF6,
       fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
@@ -5074,5 +5074,631 @@ class RemixIcon {
   static const IconData verified_badge_fill = IconData(0xF3E8,
       fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
   static const IconData verified_badge_line = IconData(0xF3E9,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData armchair_fill = IconData(0xF3EA,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData armchair_line = IconData(0xF3EB,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData bnb_fill = IconData(0xF3EC,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData bnb_line = IconData(0xF3ED,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData bread_fill = IconData(0xF3EE,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData bread_line = IconData(0xF3EF,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData btc_fill = IconData(0xF3F0,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData btc_line = IconData(0xF3F1,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData calendar_schedule_fill = IconData(0xF3F2,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData calendar_schedule_line = IconData(0xF3F3,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData dice_1_fill = IconData(0xF3F4,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData dice_1_line = IconData(0xF3F5,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData dice_2_fill = IconData(0xF3F6,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData dice_2_line = IconData(0xF3F7,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData dice_3_fill = IconData(0xF3F8,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData dice_3_line = IconData(0xF3F9,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData dice_4_fill = IconData(0xF3FA,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData dice_4_line = IconData(0xF3FB,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData dice_5_fill = IconData(0xF3FC,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData dice_5_line = IconData(0xF3FD,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData dice_6_fill = IconData(0xF3FE,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData dice_6_line = IconData(0xF3FF,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData dice_fill = IconData(0xF400,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData dice_line = IconData(0xF401,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData drinks_fill = IconData(0xF402,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData drinks_line = IconData(0xF403,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData equalizer_2_fill = IconData(0xF404,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData equalizer_2_line = IconData(0xF405,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData equalizer_3_fill = IconData(0xF406,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData equalizer_3_line = IconData(0xF407,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData eth_fill = IconData(0xF408,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData eth_line = IconData(0xF409,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData flower_fill = IconData(0xF40A,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData flower_line = IconData(0xF40B,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData glasses_2_fill = IconData(0xF40C,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData glasses_2_line = IconData(0xF40D,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData glasses_fill = IconData(0xF40E,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData glasses_line = IconData(0xF40F,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData goggles_fill = IconData(0xF410,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData goggles_line = IconData(0xF411,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData image_circle_fill = IconData(0xF412,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData image_circle_line = IconData(0xF413,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData info_i = IconData(0xF414,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData money_rupee_circle_fill = IconData(0xF415,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData money_rupee_circle_line = IconData(0xF416,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData news_fill = IconData(0xF417,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData news_line = IconData(0xF418,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData robot_3_fill = IconData(0xF419,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData robot_3_line = IconData(0xF41A,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData share_2_fill = IconData(0xF41B,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData share_2_line = IconData(0xF41C,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData sofa_fill = IconData(0xF41D,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData sofa_line = IconData(0xF41E,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData svelte_fill = IconData(0xF41F,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData svelte_line = IconData(0xF420,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData vk_fill = IconData(0xF421,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData vk_line = IconData(0xF422,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData xrp_fill = IconData(0xF423,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData xrp_line = IconData(0xF424,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData xtz_fill = IconData(0xF425,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData xtz_line = IconData(0xF426,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData archive_stack_fill = IconData(0xF427,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData archive_stack_line = IconData(0xF428,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData bowl_fill = IconData(0xF429,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData bowl_line = IconData(0xF42A,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData calendar_view = IconData(0xF42B,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData carousel_view = IconData(0xF42C,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData code_block = IconData(0xF42D,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData color_filter_fill = IconData(0xF42E,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData color_filter_line = IconData(0xF42F,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData contacts_book_3_fill = IconData(0xF430,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData contacts_book_3_line = IconData(0xF431,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData contract_fill = IconData(0xF432,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData contract_line = IconData(0xF433,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData drinks_2_fill = IconData(0xF434,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData drinks_2_line = IconData(0xF435,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData export_fill = IconData(0xF436,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData export_line = IconData(0xF437,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData file_check_fill = IconData(0xF438,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData file_check_line = IconData(0xF439,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData focus_mode = IconData(0xF43A,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData folder_6_fill = IconData(0xF43B,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData folder_6_line = IconData(0xF43C,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData folder_check_fill = IconData(0xF43D,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData folder_check_line = IconData(0xF43E,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData folder_close_fill = IconData(0xF43F,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData folder_close_line = IconData(0xF440,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData folder_cloud_fill = IconData(0xF441,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData folder_cloud_line = IconData(0xF442,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData gallery_view_2 = IconData(0xF443,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData gallery_view = IconData(0xF444,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData hand = IconData(0xF445,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData import_fill = IconData(0xF446,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData import_line = IconData(0xF447,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData information_2_fill = IconData(0xF448,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData information_2_line = IconData(0xF449,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData kanban_view_2 = IconData(0xF44A,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData kanban_view = IconData(0xF44B,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData list_view = IconData(0xF44C,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData lock_star_fill = IconData(0xF44D,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData lock_star_line = IconData(0xF44E,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData puzzle_2_fill = IconData(0xF44F,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData puzzle_2_line = IconData(0xF450,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData puzzle_fill = IconData(0xF451,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData puzzle_line = IconData(0xF452,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData ram_2_fill = IconData(0xF453,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData ram_2_line = IconData(0xF454,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData ram_fill = IconData(0xF455,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData ram_line = IconData(0xF456,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData receipt_fill = IconData(0xF457,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData receipt_line = IconData(0xF458,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData shadow_fill = IconData(0xF459,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData shadow_line = IconData(0xF45A,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData sidebar_fold_fill = IconData(0xF45B,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData sidebar_fold_line = IconData(0xF45C,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData sidebar_unfold_fill = IconData(0xF45D,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData sidebar_unfold_line = IconData(0xF45E,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData slideshow_view = IconData(0xF45F,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData sort_alphabet_asc = IconData(0xF460,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData sort_alphabet_desc = IconData(0xF461,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData sort_number_asc = IconData(0xF462,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData sort_number_desc = IconData(0xF463,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData stacked_view = IconData(0xF464,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData sticky_note_add_fill = IconData(0xF465,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData sticky_note_add_line = IconData(0xF466,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData swap_2_fill = IconData(0xF467,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData swap_2_line = IconData(0xF468,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData swap_3_fill = IconData(0xF469,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData swap_3_line = IconData(0xF46A,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData table_3 = IconData(0xF46B,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData table_view = IconData(0xF46C,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData text_block = IconData(0xF46D,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData text_snippet = IconData(0xF46E,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData timeline_view = IconData(0xF46F,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData blogger_fill = IconData(0xF470,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData blogger_line = IconData(0xF471,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData chat_thread_fill = IconData(0xF472,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData chat_thread_line = IconData(0xF473,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData discount_percent_fill = IconData(0xF474,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData discount_percent_line = IconData(0xF475,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData exchange_2_fill = IconData(0xF476,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData exchange_2_line = IconData(0xF477,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData git_fork_fill = IconData(0xF478,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData git_fork_line = IconData(0xF479,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData input_field = IconData(0xF47A,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData progress_1_fill = IconData(0xF47B,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData progress_1_line = IconData(0xF47C,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData progress_2_fill = IconData(0xF47D,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData progress_2_line = IconData(0xF47E,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData progress_3_fill = IconData(0xF47F,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData progress_3_line = IconData(0xF480,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData progress_4_fill = IconData(0xF481,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData progress_4_line = IconData(0xF482,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData progress_5_fill = IconData(0xF483,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData progress_5_line = IconData(0xF484,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData progress_6_fill = IconData(0xF485,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData progress_6_line = IconData(0xF486,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData progress_7_fill = IconData(0xF487,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData progress_7_line = IconData(0xF488,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData progress_8_fill = IconData(0xF489,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData progress_8_line = IconData(0xF48A,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData remix_run_fill = IconData(0xF48B,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData remix_run_line = IconData(0xF48C,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData signpost_fill = IconData(0xF48D,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData signpost_line = IconData(0xF48E,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData time_zone_fill = IconData(0xF48F,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData time_zone_line = IconData(0xF490,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData arrow_down_wide_fill = IconData(0xF491,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData arrow_down_wide_line = IconData(0xF492,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData arrow_left_wide_fill = IconData(0xF493,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData arrow_left_wide_line = IconData(0xF494,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData arrow_right_wide_fill = IconData(0xF495,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData arrow_right_wide_line = IconData(0xF496,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData arrow_up_wide_fill = IconData(0xF497,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData arrow_up_wide_line = IconData(0xF498,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData bluesky_fill = IconData(0xF499,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData bluesky_line = IconData(0xF49A,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData expand_height_fill = IconData(0xF49B,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData expand_height_line = IconData(0xF49C,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData expand_width_fill = IconData(0xF49D,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData expand_width_line = IconData(0xF49E,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData forward_end_fill = IconData(0xF49F,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData forward_end_line = IconData(0xF4A0,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData forward_end_mini_fill = IconData(0xF4A1,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData forward_end_mini_line = IconData(0xF4A2,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData friendica_fill = IconData(0xF4A3,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData friendica_line = IconData(0xF4A4,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData git_pr_draft_fill = IconData(0xF4A5,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData git_pr_draft_line = IconData(0xF4A6,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData play_reverse_fill = IconData(0xF4A7,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData play_reverse_line = IconData(0xF4A8,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData play_reverse_mini_fill = IconData(0xF4A9,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData play_reverse_mini_line = IconData(0xF4AA,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData rewind_start_fill = IconData(0xF4AB,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData rewind_start_line = IconData(0xF4AC,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData rewind_start_mini_fill = IconData(0xF4AD,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData rewind_start_mini_line = IconData(0xF4AE,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData scroll_to_bottom_fill = IconData(0xF4AF,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData scroll_to_bottom_line = IconData(0xF4B0,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData add_large_fill = IconData(0xF4B1,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData add_large_line = IconData(0xF4B2,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData aed_electrodes_fill = IconData(0xF4B3,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData aed_electrodes_line = IconData(0xF4B4,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData aed_fill = IconData(0xF4B5,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData aed_line = IconData(0xF4B6,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData alibaba_cloud_fill = IconData(0xF4B7,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData alibaba_cloud_line = IconData(0xF4B8,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData align_item_bottom_fill = IconData(0xF4B9,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData align_item_bottom_line = IconData(0xF4BA,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData align_item_horizontal_center_fill = IconData(0xF4BB,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData align_item_horizontal_center_line = IconData(0xF4BC,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData align_item_left_fill = IconData(0xF4BD,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData align_item_left_line = IconData(0xF4BE,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData align_item_right_fill = IconData(0xF4BF,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData align_item_right_line = IconData(0xF4C0,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData align_item_top_fill = IconData(0xF4C1,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData align_item_top_line = IconData(0xF4C2,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData align_item_vertical_center_fill = IconData(0xF4C3,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData align_item_vertical_center_line = IconData(0xF4C4,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData apps_2_add_fill = IconData(0xF4C5,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData apps_2_add_line = IconData(0xF4C6,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData close_large_fill = IconData(0xF4C7,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData close_large_line = IconData(0xF4C8,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData collapse_diagonal_2_fill = IconData(0xF4C9,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData collapse_diagonal_2_line = IconData(0xF4CA,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData collapse_diagonal_fill = IconData(0xF4CB,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData collapse_diagonal_line = IconData(0xF4CC,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData dashboard_horizontal_fill = IconData(0xF4CD,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData dashboard_horizontal_line = IconData(0xF4CE,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData expand_diagonal_2_fill = IconData(0xF4CF,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData expand_diagonal_2_line = IconData(0xF4D0,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData expand_diagonal_fill = IconData(0xF4D1,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData expand_diagonal_line = IconData(0xF4D2,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData firebase_fill = IconData(0xF4D3,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData firebase_line = IconData(0xF4D4,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData flip_horizontal_2_fill = IconData(0xF4D5,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData flip_horizontal_2_line = IconData(0xF4D6,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData flip_horizontal_fill = IconData(0xF4D7,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData flip_horizontal_line = IconData(0xF4D8,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData flip_vertical_2_fill = IconData(0xF4D9,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData flip_vertical_2_line = IconData(0xF4DA,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData flip_vertical_fill = IconData(0xF4DB,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData flip_vertical_line = IconData(0xF4DC,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData formula = IconData(0xF4DD,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData function_add_fill = IconData(0xF4DE,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData function_add_line = IconData(0xF4DF,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData goblet_2_fill = IconData(0xF4E0,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData goblet_2_line = IconData(0xF4E1,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData golf_ball_fill = IconData(0xF4E2,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData golf_ball_line = IconData(0xF4E3,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData group_3_fill = IconData(0xF4E4,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData group_3_line = IconData(0xF4E5,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData heart_add_2_fill = IconData(0xF4E6,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData heart_add_2_line = IconData(0xF4E7,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData id_card_fill = IconData(0xF4E8,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData id_card_line = IconData(0xF4E9,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData information_off_fill = IconData(0xF4EA,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData information_off_line = IconData(0xF4EB,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData java_fill = IconData(0xF4EC,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData java_line = IconData(0xF4ED,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData layout_grid_2_fill = IconData(0xF4EE,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData layout_grid_2_line = IconData(0xF4EF,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData layout_horizontal_fill = IconData(0xF4F0,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData layout_horizontal_line = IconData(0xF4F1,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData layout_vertical_fill = IconData(0xF4F2,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData layout_vertical_line = IconData(0xF4F3,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData menu_fold_2_fill = IconData(0xF4F4,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData menu_fold_2_line = IconData(0xF4F5,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData menu_fold_3_fill = IconData(0xF4F6,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData menu_fold_3_line = IconData(0xF4F7,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData menu_fold_4_fill = IconData(0xF4F8,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData menu_fold_4_line = IconData(0xF4F9,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData menu_unfold_2_fill = IconData(0xF4FA,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData menu_unfold_2_line = IconData(0xF4FB,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData menu_unfold_3_fill = IconData(0xF4FC,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData menu_unfold_3_line = IconData(0xF4FD,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData menu_unfold_4_fill = IconData(0xF4FE,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData menu_unfold_4_line = IconData(0xF4FF,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData mobile_download_fill = IconData(0xF500,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData mobile_download_line = IconData(0xF501,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData nextjs_fill = IconData(0xF502,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData nextjs_line = IconData(0xF503,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData nodejs_fill = IconData(0xF504,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData nodejs_line = IconData(0xF505,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData pause_large_fill = IconData(0xF506,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData pause_large_line = IconData(0xF507,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData play_large_fill = IconData(0xF508,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData play_large_line = IconData(0xF509,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData play_reverse_large_fill = IconData(0xF50A,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData play_reverse_large_line = IconData(0xF50B,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData police_badge_fill = IconData(0xF50C,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData police_badge_line = IconData(0xF50D,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData prohibited_2_fill = IconData(0xF50E,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData prohibited_2_line = IconData(0xF50F,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData shopping_bag_4_fill = IconData(0xF510,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData shopping_bag_4_line = IconData(0xF511,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData snowflake_fill = IconData(0xF512,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData snowflake_line = IconData(0xF513,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData square_root = IconData(0xF514,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData stop_large_fill = IconData(0xF515,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData stop_large_line = IconData(0xF516,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData tailwind_css_fill = IconData(0xF517,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData tailwind_css_line = IconData(0xF518,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData tooth_fill = IconData(0xF519,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData tooth_line = IconData(0xF51A,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData video_off_fill = IconData(0xF51B,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData video_off_line = IconData(0xF51C,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData video_on_fill = IconData(0xF51D,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData video_on_line = IconData(0xF51E,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData webhook_fill = IconData(0xF51F,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData webhook_line = IconData(0xF520,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData weight_fill = IconData(0xF521,
+      fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
+  static const IconData weight_line = IconData(0xF522,
       fontFamily: "RemixIcon", fontPackage: "flutter_remix_icon");
 }

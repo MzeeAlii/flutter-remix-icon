@@ -11,6 +11,7 @@ final _className = 'RemixIcon';
 // To run this
 void main() async {
   Map? iconMap = await _getIconMap();
+  print('Loaded: ${iconMap?.length ?? 0} icons.');
 
   String fontCode = _buildCode(iconMap);
 
