@@ -1,6 +1,6 @@
 # Flutter Remix Icon
 
-Remix Icon is a set of open-source neutral-style icons for designers and developers. Currently, contains more than 2400+ icons.
+Remix Icon is a set of open-source neutral-style icons for designers and developers. Currently, contains more than 2800+ icons.
 
 [![icon demo](http://cdn.remixicon.com/preview.svg)](https://remixicon.com)
 View the full set of Remix Icons at [remixicon.com](https://remixicon.com).
